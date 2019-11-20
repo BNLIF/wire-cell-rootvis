@@ -1,6 +1,6 @@
-#include "WireCellRootVis/ViewMixin.h"
+#include "WCPRootVis/ViewMixin.h"
 
-using namespace WireCellRootVis;
+using namespace WCPRootVis;
 ViewMixin::~ViewMixin()
 {
 }

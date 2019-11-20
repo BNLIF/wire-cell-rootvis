@@ -1,16 +1,16 @@
 #ifndef WIRECELLROOTVIS_VIEWGDS
 #define  WIRECELLROOTVIS_VIEWGDS
 
-#include "WireCellRootVis/ViewMixin.h"
-#include "WireCellNav/GeomDataSource.h"
+#include "WCPRootVis/ViewMixin.h"
+#include "WCPNav/GeomDataSource.h"
 
-namespace WireCellRootVis {
+namespace WCPRootVis {
 
     class ViewGDS : public ViewMixin
     {
-	const WireCell::GeomDataSource& gds;
+	const WCP::GeomDataSource& gds;
     public:
-	ViewGDS(const WireCell::GeomDataSource& gds);
+	ViewGDS(const WCP::GeomDataSource& gds);
 	virtual ~ViewGDS();
 	virtual void draw(TPad& pad);
 	virtual void update();

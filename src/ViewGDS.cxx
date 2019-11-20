@@ -1,14 +1,14 @@
-#include "WireCellRootVis/ViewGDS.h"
-#include "WireCellData/GeomWire.h"
+#include "WCPRootVis/ViewGDS.h"
+#include "WCPData/GeomWire.h"
 
-using namespace WireCellRootVis;
-using namespace WireCell;
+using namespace WCPRootVis;
+using namespace WCP;
 using namespace std;
 
 #include "TH1F.h"
 #include "TLine.h"
 
-ViewGDS::ViewGDS(const WireCell::GeomDataSource& gds)
+ViewGDS::ViewGDS(const WCP::GeomDataSource& gds)
     : gds(gds)
 {
 }

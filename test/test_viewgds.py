@@ -3,10 +3,10 @@
 import ROOT
 
 # fixme: shouldn't need this
-ROOT.gSystem.Load("libWireCellNavDict")
-ROOT.gSystem.Load("libWireCellRootVisDict")
+ROOT.gSystem.Load("libWCPNavDict")
+ROOT.gSystem.Load("libWCPRootVisDict")
 
-ViewGDS = ROOT.WireCellRootVis.ViewGDS
+ViewGDS = ROOT.WCPRootVis.ViewGDS
 
 
 

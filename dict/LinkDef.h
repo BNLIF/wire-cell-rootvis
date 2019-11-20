@@ -5,7 +5,7 @@
 
 #pragma link C++ nestedclass;
 
-#pragma link C++ namespace WireCellRootVis;
-#pragma link C++ class WireCellRootVis::ViewGDS;
+#pragma link C++ namespace WCPRootVis;
+#pragma link C++ class WCPRootVis::ViewGDS;
 
 #endif

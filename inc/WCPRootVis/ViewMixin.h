@@ -3,7 +3,7 @@
 
 #include "TPad.h"
 
-namespace WireCellRootVis {
+namespace WCPRootVis {
 
     class ViewMixin
     {
